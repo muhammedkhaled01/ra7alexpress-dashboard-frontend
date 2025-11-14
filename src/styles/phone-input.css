@@ -1,0 +1,189 @@
+/* phone-input.css */
+.react-tel-input {
+  @apply w-full;
+}
+
+.react-tel-input .form-control {
+  @apply w-full py-2 pl-14 pr-4 border shadow-sm text-sm;
+}
+
+.react-tel-input .flag-dropdown {
+  @apply border-r;
+}
+
+.react-tel-input .selected-flag {
+  @apply h-full flex items-center px-3;
+}
+
+.react-tel-input .country-list {
+  @apply max-h-64 overflow-y-auto text-sm z-50;
+}
+
+.react-tel-input .country {
+  @apply px-3 py-1 cursor-pointer hover:bg-muted;
+}
+
+.react-tel-input .country.highlight {
+  @apply bg-muted;
+}
+.react-international-phone-input-container .react-international-phone-input {
+  width: 100%;
+}
+/* Light mode styles for PhoneInput component */
+.react-international-phone-input {
+  background-color: white !important;
+  color: rgb(24 24 27) !important; /* text-zinc-900 */
+  border-color: rgb(229 231 235) !important; /* border-zinc-300 */
+}
+
+.react-international-phone-input::placeholder {
+  color: rgb(161 161 170) !important; /* placeholder:text-zinc-400 */
+}
+
+.react-international-phone-input:focus {
+  border-color: rgb(59 130 246) !important; /* focus:border-primary */
+  box-shadow: 0 0 0 2px rgb(59 130 246) !important; /* focus:ring-primary */
+}
+
+.react-international-phone-country-selector-button {
+  background-color: white !important;
+  color: rgb(24 24 27) !important; /* text-zinc-900 */
+  border-color: rgb(229 231 235) !important; /* border-zinc-300 */
+}
+
+.react-international-phone-country-selector-button:hover {
+  background-color: rgb(249 250 251) !important; /* hover:bg-zinc-50 */
+}
+
+.react-international-phone-country-selector-dropdown {
+  background-color: white !important;
+  border-color: rgb(229 231 235) !important; /* border-zinc-300 */
+  color: rgb(24 24 27) !important; /* text-zinc-900 */
+}
+
+.react-international-phone-country-selector-dropdown-item {
+  color: rgb(24 24 27) !important; /* text-zinc-900 */
+}
+
+.react-international-phone-country-selector-dropdown-item:hover {
+  background-color: rgb(249 250 251) !important; /* hover:bg-zinc-50 */
+}
+
+.dark .react-international-phone-country-selector-dropdown-item:hover {
+  background-color: rgb(39 39 42) !important; /* dark:hover:bg-zinc-800 */
+}
+.react-international-phone-country-selector-dropdown__list-item-country-name:hover {
+  color: black !important;
+}
+.react-international-phone-country-selector-dropdown-item-selected {
+  background-color: rgb(59 130 246) !important; /* bg-primary */
+  color: white !important;
+}
+
+/* Dark mode styles for PhoneInput component */
+.dark .react-international-phone-input {
+  background-color: rgb(24 24 27) !important; /* dark:bg-zinc-900 */
+  color: white !important; /* dark:text-white */
+  border-color: rgb(63 63 70) !important; /* dark:border-zinc-700 */
+}
+
+.dark .react-international-phone-input::placeholder {
+  color: rgb(161 161 170) !important; /* dark:placeholder:text-zinc-400 */
+}
+
+.dark .react-international-phone-input:focus {
+  border-color: rgb(59 130 246) !important; /* focus:border-primary */
+  box-shadow: 0 0 0 2px rgb(59 130 246) !important; /* focus:ring-primary */
+}
+
+.dark .react-international-phone-input.error {
+  border-color: rgb(239 68 68) !important; /* dark:border-red-600 */
+  box-shadow: 0 0 0 2px rgb(239 68 68) !important; /* dark:focus:ring-red-600 */
+}
+.react-international-phone-input.error {
+  border-color: rgb(239 68 68) !important; /* light:border-red-600 */
+  box-shadow: 0 0 0 2px rgb(239 68 68) !important; /* light:focus:ring-red-600 */
+}
+.dark .react-international-phone-country-selector-button {
+  background-color: rgb(24 24 27) !important; /* dark:bg-zinc-900 */
+  color: white !important; /* dark:text-white */
+  border-color: rgb(63 63 70) !important; /* dark:border-zinc-700 */
+}
+
+.dark .react-international-phone-country-selector-button:hover {
+  background-color: rgb(39 39 42) !important; /* hover:bg-zinc-800 */
+}
+
+.dark .react-international-phone-country-selector-dropdown {
+  background-color: rgb(24 24 27) !important; /* dark:bg-zinc-900 */
+  border-color: rgb(63 63 70) !important; /* dark:border-zinc-700 */
+  color: white !important; /* dark:text-white */
+}
+
+.dark .react-international-phone-country-selector-dropdown-item {
+  color: white !important; /* dark:text-white */
+}
+
+.dark .react-international-phone-country-selector-dropdown-item:hover {
+  background-color: rgb(39 39 42) !important; /* hover:bg-zinc-800 */
+}
+
+.dark .react-international-phone-country-selector-dropdown-item-selected {
+  background-color: rgb(59 130 246) !important; /* bg-primary */
+  color: white !important;
+}
+
+/* Error state light mode */
+.react-international-phone-input.error {
+  border-color: rgb(239 68 68) !important; /* border-red-500 */
+}
+
+.react-international-phone-input.error:focus {
+  border-color: rgb(239 68 68) !important; /* focus:border-red-500 */
+  box-shadow: 0 0 0 2px rgb(239 68 68) !important; /* focus:ring-red-500 */
+}
+
+.react-international-phone-country-selector-button.error {
+  border-color: rgb(239 68 68) !important; /* border-red-500 */
+}
+
+/* Error state dark mode */
+.dark .react-international-phone-input.error {
+  border-color: rgb(239 68 68) !important; /* dark:border-red-600 */
+}
+
+.dark .react-international-phone-input.error:focus {
+  border-color: rgb(239 68 68) !important; /* focus:border-red-500 */
+  box-shadow: 0 0 0 2px rgb(239 68 68) !important; /* focus:ring-red-500 */
+}
+
+.dark .react-international-phone-country-selector-button.error {
+  border-color: rgb(239 68 68) !important; /* dark:border-red-600 */
+}
+.dark
+  .react-international-phone-country-selector-dropdown__list-item:hover
+  .react-international-phone-country-selector-dropdown__list-item-country-name {
+  color: black !important;
+}
+
+.dark
+  .react-international-phone-country-selector-dropdown__list-item:hover
+  .react-international-phone-country-selector-dropdown__list-item-dial-code {
+  color: black !important;
+}
+.mx-2.h-6.w-px.bg-gray-300 {
+  display: none;
+}
+[dir="rtl"]
+  .flex.h-11.items-center.rounded-lg.border.border-gray-300.bg-white.hover\:border-gray-400.focus-within\:border-blue-500.focus-within\:ring-2.focus-within\:ring-blue-500\/30.w-full.border-zinc-300.dark\:border-zinc-700 {
+  flex-direction: row-reverse !important;
+}
+/* [dir="rtl"]
+  .flex-1.bg-transparent.px-2.text-sm.text-gray-900.placeholder\:text-gray-400.outline-none {
+  text-align: left !important;
+} */
+
+[dir="ltr"]
+  .flex.h-11.items-center.rounded-lg.border.border-gray-300.bg-white.hover\:border-gray-400.focus-within\:border-blue-500.focus-within\:ring-2.focus-within\:ring-blue-500\/30.w-full.border-zinc-300.dark\:border-zinc-700 {
+  flex-direction: row !important;
+}
